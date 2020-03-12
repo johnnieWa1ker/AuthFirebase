@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798CDED3241A67D7005DE888 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 798CDED2241A67D7005DE888 /* Podfile */; };
+		798CDED5241A67D7005DE888 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 798CDED4241A67D7005DE888 /* .swiftlint.yml */; };
+		798CDED7241A67D7005DE888 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 798CDED6241A67D7005DE888 /* .gitignore */; };
+		798CDEDA241A67D7005DE888 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDED9241A67D7005DE888 /* AppConfiguration.swift */; };
+		798CDEDC241A67D7005DE888 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEDB241A67D7005DE888 /* AppManager.swift */; };
+		798CDEDE241A67D7005DE888 /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEDD241A67D7005DE888 /* AppDefaults.swift */; };
+		798CDEE0241A67D7005DE888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEDF241A67D7005DE888 /* AppDelegate.swift */; };
+		798CDEE3241A67D7005DE888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEE1241A67D7005DE888 /* LaunchScreen.storyboard */; };
+		798CDEE9241A67D7005DE888 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEE7241A67D7005DE888 /* Localizable.strings */; };
+		798CDEEC241A67D7005DE888 /* AppLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEEB241A67D7005DE888 /* AppLocalization.swift */; };
+		798CDEEE241A67D7005DE888 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEED241A67D7005DE888 /* Localizable.swift */; };
+		798CDEF0241A67D7005DE888 /* AppLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEEF241A67D7005DE888 /* AppLocalizationManager.swift */; };
+		798CDEF4241A67D7005DE888 /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEF3241A67D7005DE888 /* AppAssets.swift */; };
+		798CDEF6241A67D7005DE888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEF5241A67D7005DE888 /* Assets.xcassets */; };
+		798CDEFA241A67D7005DE888 /* FiraSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEF9241A67D7005DE888 /* FiraSans-ExtraBold.ttf */; };
+		798CDEFC241A67D7005DE888 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEFB241A67D7005DE888 /* FiraSans-Regular.ttf */; };
+		798CDEFE241A67D7005DE888 /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798CDEFD241A67D7005DE888 /* FiraSans-SemiBold.ttf */; };
+		798CDF00241A67D7005DE888 /* FiraSans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDEFF241A67D7005DE888 /* FiraSans.swift */; };
+		798CDF03241A67D7005DE888 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF02241A67D7005DE888 /* AppTheme.swift */; };
+		798CDF05241A67D7005DE888 /* AppThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF04241A67D7005DE888 /* AppThemeManager.swift */; };
+		798CDF08241A67D7005DE888 /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF07241A67D7005DE888 /* Stylable.swift */; };
+		798CDF0A241A67D7005DE888 /* StyleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF09241A67D7005DE888 /* StyleWrapper.swift */; };
+		798CDF0D241A67D7005DE888 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF0B241A67D7005DE888 /* LaunchScreen.strings */; };
+		798CDF17241A67D7005DE888 /* AuthFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF15241A67D7005DE888 /* AuthFirebase.xcdatamodeld */; };
+		798CDF19241A67D7005DE888 /* AuthFirebaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF18241A67D7005DE888 /* AuthFirebaseRepository.swift */; };
+		798CDF1B241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF1A241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift */; };
+		798CDF27241A67D7005DE888 /* BasicNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF26241A67D7005DE888 /* BasicNavigationController.swift */; };
+		798CDF2B241A67D7005DE888 /* InitialAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF2A241A67D7005DE888 /* InitialAssembly.swift */; };
+		798CDF2D241A67D7005DE888 /* InitialInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF2C241A67D7005DE888 /* InitialInteractor.swift */; };
+		798CDF2F241A67D7005DE888 /* InitialPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF2E241A67D7005DE888 /* InitialPresenter.swift */; };
+		798CDF31241A67D7005DE888 /* InitialRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF30241A67D7005DE888 /* InitialRouter.swift */; };
+		798CDF33241A67D7005DE888 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF32241A67D7005DE888 /* InitialViewController.swift */; };
+		798CDF35241A67D7005DE888 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF34241A67D7005DE888 /* InitialViewController.xib */; };
+		798CDF37241A67D7005DE888 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF36241A67D7005DE888 /* InitialViewModel.swift */; };
+		798CDF3A241A67D7005DE888 /* StylyWrapper+Initial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF39241A67D7005DE888 /* StylyWrapper+Initial.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		798CDECF241A67D7005DE888 /* AuthFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798CDED2241A67D7005DE888 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		798CDED4241A67D7005DE888 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../.swiftlint.yml; sourceTree = "<group>"; };
+		798CDED6241A67D7005DE888 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		798CDED9241A67D7005DE888 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		798CDEDB241A67D7005DE888 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		798CDEDD241A67D7005DE888 /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		798CDEDF241A67D7005DE888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		798CDEE2241A67D7005DE888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		798CDEE5241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitkeep; path = "AuthFirebase/👑 Application Layer/Extensions/.gitkeep"; sourceTree = SOURCE_ROOT; };
+		798CDEE8241A67D7005DE888 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		798CDEEA241A67D7005DE888 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		798CDEEB241A67D7005DE888 /* AppLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalization.swift; sourceTree = "<group>"; };
+		798CDEED241A67D7005DE888 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		798CDEEF241A67D7005DE888 /* AppLocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalizationManager.swift; sourceTree = "<group>"; };
+		798CDEF3241A67D7005DE888 /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
+		798CDEF5241A67D7005DE888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		798CDEF9241A67D7005DE888 /* FiraSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		798CDEFB241A67D7005DE888 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		798CDEFD241A67D7005DE888 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		798CDEFF241A67D7005DE888 /* FiraSans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiraSans.swift; sourceTree = "<group>"; };
+		798CDF02241A67D7005DE888 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		798CDF04241A67D7005DE888 /* AppThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeManager.swift; sourceTree = "<group>"; };
+		798CDF07241A67D7005DE888 /* Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
+		798CDF09241A67D7005DE888 /* StyleWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleWrapper.swift; sourceTree = "<group>"; };
+		798CDF0C241A67D7005DE888 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		798CDF10241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF12241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF14241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF16241A67D7005DE888 /* AuthFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AuthFirebase.xcdatamodel; sourceTree = "<group>"; };
+		798CDF18241A67D7005DE888 /* AuthFirebaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFirebaseRepository.swift; sourceTree = "<group>"; };
+		798CDF1A241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFirebaseRemoteWorker.swift; sourceTree = "<group>"; };
+		798CDF1D241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF21241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF23241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		798CDF26241A67D7005DE888 /* BasicNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavigationController.swift; sourceTree = "<group>"; };
+		798CDF2A241A67D7005DE888 /* InitialAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialAssembly.swift; sourceTree = "<group>"; };
+		798CDF2C241A67D7005DE888 /* InitialInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialInteractor.swift; sourceTree = "<group>"; };
+		798CDF2E241A67D7005DE888 /* InitialPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPresenter.swift; sourceTree = "<group>"; };
+		798CDF30241A67D7005DE888 /* InitialRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialRouter.swift; sourceTree = "<group>"; };
+		798CDF32241A67D7005DE888 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		798CDF34241A67D7005DE888 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		798CDF36241A67D7005DE888 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		798CDF39241A67D7005DE888 /* StylyWrapper+Initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StylyWrapper+Initial.swift"; sourceTree = "<group>"; };
+		798CDF3C241A67D7005DE888 /* GlobalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
+		798CDF3D241A67D7005DE888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798CDECB241A67D7005DE888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798CDEC5241A67D7005DE888 = {
+			isa = PBXGroup;
+			children = (
+				798CDED1241A67D7005DE888 /* AuthFirebase */,
+				798CDED0241A67D7005DE888 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798CDED0241A67D7005DE888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798CDECF241A67D7005DE888 /* AuthFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798CDED1241A67D7005DE888 /* AuthFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				798CDED2241A67D7005DE888 /* Podfile */,
+				798CDED4241A67D7005DE888 /* .swiftlint.yml */,
+				798CDED6241A67D7005DE888 /* .gitignore */,
+				798CDF3D241A67D7005DE888 /* Info.plist */,
+				798CDED8241A67D7005DE888 /* 👑 Application Layer */,
+				798CDF0E241A67D7005DE888 /* 🧠 Data Layer */,
+				798CDF1C241A67D7005DE888 /* 🧩 Domain Layer */,
+				798CDF1E241A67D7005DE888 /* 🌟 Presentation Layer */,
+				798CDF3B241A67D7005DE888 /* 🤖 Service Layer */,
+			);
+			path = AuthFirebase;
+			sourceTree = "<group>";
+		};
+		798CDED8241A67D7005DE888 /* 👑 Application Layer */ = {
+			isa = PBXGroup;
+			children = (
+				798CDED9241A67D7005DE888 /* AppConfiguration.swift */,
+				798CDEDB241A67D7005DE888 /* AppManager.swift */,
+				798CDEDD241A67D7005DE888 /* AppDefaults.swift */,
+				798CDEDF241A67D7005DE888 /* AppDelegate.swift */,
+				798CDEE1241A67D7005DE888 /* LaunchScreen.storyboard */,
+				798CDEE4241A67D7005DE888 /* Extension */,
+				798CDEE6241A67D7005DE888 /* Localization */,
+				798CDEF1241A67D7005DE888 /* Resources */,
+			);
+			path = "👑 Application Layer";
+			sourceTree = "<group>";
+		};
+		798CDEE4241A67D7005DE888 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEE5241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		798CDEE6241A67D7005DE888 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEE7241A67D7005DE888 /* Localizable.strings */,
+				798CDEEB241A67D7005DE888 /* AppLocalization.swift */,
+				798CDEED241A67D7005DE888 /* Localizable.swift */,
+				798CDEEF241A67D7005DE888 /* AppLocalizationManager.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		798CDEF1241A67D7005DE888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEF2241A67D7005DE888 /* Assets */,
+				798CDEF7241A67D7005DE888 /* Fonts */,
+				798CDF01241A67D7005DE888 /* Theme */,
+				798CDF06241A67D7005DE888 /* Style */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		798CDEF2241A67D7005DE888 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEF3241A67D7005DE888 /* AppAssets.swift */,
+				798CDEF5241A67D7005DE888 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		798CDEF7241A67D7005DE888 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEF8241A67D7005DE888 /* Fira Sans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		798CDEF8241A67D7005DE888 /* Fira Sans */ = {
+			isa = PBXGroup;
+			children = (
+				798CDEF9241A67D7005DE888 /* FiraSans-ExtraBold.ttf */,
+				798CDEFB241A67D7005DE888 /* FiraSans-Regular.ttf */,
+				798CDEFD241A67D7005DE888 /* FiraSans-SemiBold.ttf */,
+				798CDEFF241A67D7005DE888 /* FiraSans.swift */,
+			);
+			path = "Fira Sans";
+			sourceTree = "<group>";
+		};
+		798CDF01241A67D7005DE888 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF02241A67D7005DE888 /* AppTheme.swift */,
+				798CDF04241A67D7005DE888 /* AppThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		798CDF06241A67D7005DE888 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF07241A67D7005DE888 /* Stylable.swift */,
+				798CDF09241A67D7005DE888 /* StyleWrapper.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		798CDF0E241A67D7005DE888 /* 🧠 Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF18241A67D7005DE888 /* AuthFirebaseRepository.swift */,
+				798CDF1A241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift */,
+				798CDF15241A67D7005DE888 /* AuthFirebase.xcdatamodeld */,
+				798CDF0F241A67D7005DE888 /* Requests */,
+				798CDF11241A67D7005DE888 /* Responses */,
+				798CDF13241A67D7005DE888 /* Models */,
+			);
+			path = "🧠 Data Layer";
+			sourceTree = "<group>";
+		};
+		798CDF0F241A67D7005DE888 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF10241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		798CDF11241A67D7005DE888 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF12241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		798CDF13241A67D7005DE888 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF14241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		798CDF1C241A67D7005DE888 /* 🧩 Domain Layer */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF1D241A67D7005DE888 /* .gitkeep */,
+			);
+			path = "🧩 Domain Layer";
+			sourceTree = "<group>";
+		};
+		798CDF1E241A67D7005DE888 /* 🌟 Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF1F241A67D7005DE888 /* Components */,
+				798CDF24241A67D7005DE888 /* Navigation */,
+				798CDF28241A67D7005DE888 /* User Stories */,
+			);
+			path = "🌟 Presentation Layer";
+			sourceTree = "<group>";
+		};
+		798CDF1F241A67D7005DE888 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF20241A67D7005DE888 /* Cells */,
+				798CDF22241A67D7005DE888 /* Custom */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		798CDF20241A67D7005DE888 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF21241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		798CDF22241A67D7005DE888 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF23241A67D7005DE888 /* .gitkeep */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		798CDF24241A67D7005DE888 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF25241A67D7005DE888 /* Navigation Controller */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		798CDF25241A67D7005DE888 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF26241A67D7005DE888 /* BasicNavigationController.swift */,
+			);
+			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		798CDF28241A67D7005DE888 /* User Stories */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF29241A67D7005DE888 /* Initial */,
+			);
+			path = "User Stories";
+			sourceTree = "<group>";
+		};
+		798CDF29241A67D7005DE888 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF2A241A67D7005DE888 /* InitialAssembly.swift */,
+				798CDF2C241A67D7005DE888 /* InitialInteractor.swift */,
+				798CDF2E241A67D7005DE888 /* InitialPresenter.swift */,
+				798CDF30241A67D7005DE888 /* InitialRouter.swift */,
+				798CDF32241A67D7005DE888 /* InitialViewController.swift */,
+				798CDF34241A67D7005DE888 /* InitialViewController.xib */,
+				798CDF36241A67D7005DE888 /* InitialViewModel.swift */,
+				798CDF38241A67D7005DE888 /* Resources */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		798CDF38241A67D7005DE888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF39241A67D7005DE888 /* StylyWrapper+Initial.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		798CDF3B241A67D7005DE888 /* 🤖 Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF3C241A67D7005DE888 /* GlobalHelper.swift */,
+			);
+			path = "🤖 Service Layer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798CDECE241A67D7005DE888 /* AuthFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798CDF40241A67D7005DE888 /* Build configuration list for PBXNativeTarget "AuthFirebase" */;
+			buildPhases = (
+				798CDECA241A67D7005DE888 /* Sources */,
+				798CDECB241A67D7005DE888 /* Frameworks */,
+				798CDECC241A67D7005DE888 /* Resources */,
+				798CDECD241A67D7005DE888 /* Swift Lint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthFirebase;
+			productName = AuthFirebase;
+			productReference = 798CDECF241A67D7005DE888 /* AuthFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798CDEC6241A67D7005DE888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Johnnie Walker";
+				TargetAttributes = {
+					798CDECE241A67D7005DE888 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 798CDEC9241A67D7005DE888 /* Build configuration list for PBXProject "AuthFirebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 798CDEC5241A67D7005DE888;
+			productRefGroup = 798CDED0241A67D7005DE888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798CDECE241A67D7005DE888 /* AuthFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798CDECC241A67D7005DE888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798CDEE9241A67D7005DE888 /* Localizable.strings in Resources */,
+				798CDF35241A67D7005DE888 /* InitialViewController.xib in Resources */,
+				798CDED5241A67D7005DE888 /* .swiftlint.yml in Resources */,
+				798CDEFE241A67D7005DE888 /* FiraSans-SemiBold.ttf in Resources */,
+				798CDF0D241A67D7005DE888 /* LaunchScreen.strings in Resources */,
+				798CDEE3241A67D7005DE888 /* LaunchScreen.storyboard in Resources */,
+				798CDEFA241A67D7005DE888 /* FiraSans-ExtraBold.ttf in Resources */,
+				798CDED7241A67D7005DE888 /* .gitignore in Resources */,
+				798CDEF6241A67D7005DE888 /* Assets.xcassets in Resources */,
+				798CDEFC241A67D7005DE888 /* FiraSans-Regular.ttf in Resources */,
+				798CDED3241A67D7005DE888 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798CDECD241A67D7005DE888 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798CDECA241A67D7005DE888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798CDEEC241A67D7005DE888 /* AppLocalization.swift in Sources */,
+				798CDF2D241A67D7005DE888 /* InitialInteractor.swift in Sources */,
+				798CDF00241A67D7005DE888 /* FiraSans.swift in Sources */,
+				798CDF1B241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift in Sources */,
+				798CDF37241A67D7005DE888 /* InitialViewModel.swift in Sources */,
+				798CDF17241A67D7005DE888 /* AuthFirebase.xcdatamodeld in Sources */,
+				798CDEE0241A67D7005DE888 /* AppDelegate.swift in Sources */,
+				798CDEDA241A67D7005DE888 /* AppConfiguration.swift in Sources */,
+				798CDEDC241A67D7005DE888 /* AppManager.swift in Sources */,
+				798CDEF0241A67D7005DE888 /* AppLocalizationManager.swift in Sources */,
+				798CDEEE241A67D7005DE888 /* Localizable.swift in Sources */,
+				798CDF19241A67D7005DE888 /* AuthFirebaseRepository.swift in Sources */,
+				798CDF2F241A67D7005DE888 /* InitialPresenter.swift in Sources */,
+				798CDF31241A67D7005DE888 /* InitialRouter.swift in Sources */,
+				798CDF33241A67D7005DE888 /* InitialViewController.swift in Sources */,
+				798CDF05241A67D7005DE888 /* AppThemeManager.swift in Sources */,
+				798CDF3A241A67D7005DE888 /* StylyWrapper+Initial.swift in Sources */,
+				798CDEF4241A67D7005DE888 /* AppAssets.swift in Sources */,
+				798CDF27241A67D7005DE888 /* BasicNavigationController.swift in Sources */,
+				798CDF08241A67D7005DE888 /* Stylable.swift in Sources */,
+				798CDF0A241A67D7005DE888 /* StyleWrapper.swift in Sources */,
+				798CDEDE241A67D7005DE888 /* AppDefaults.swift in Sources */,
+				798CDF2B241A67D7005DE888 /* InitialAssembly.swift in Sources */,
+				798CDF03241A67D7005DE888 /* AppTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		798CDEE1241A67D7005DE888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798CDEE2241A67D7005DE888 /* Base */,
+				798CDF0B241A67D7005DE888 /* LaunchScreen.strings */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		798CDEE7241A67D7005DE888 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798CDEE8241A67D7005DE888 /* en */,
+				798CDEEA241A67D7005DE888 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		798CDF0B241A67D7005DE888 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798CDF0C241A67D7005DE888 /* ru */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798CDF3E241A67D7005DE888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		798CDF3F241A67D7005DE888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 5.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798CDF41241A67D7005DE888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96Q9U9SZGB;
+				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JW.AuthFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		798CDF42241A67D7005DE888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96Q9U9SZGB;
+				INFOPLIST_FILE = AuthFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JW.AuthFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798CDEC9241A67D7005DE888 /* Build configuration list for PBXProject "AuthFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798CDF3E241A67D7005DE888 /* Debug */,
+				798CDF3F241A67D7005DE888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798CDF40241A67D7005DE888 /* Build configuration list for PBXNativeTarget "AuthFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798CDF41241A67D7005DE888 /* Debug */,
+				798CDF42241A67D7005DE888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		798CDF15241A67D7005DE888 /* AuthFirebase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				798CDF16241A67D7005DE888 /* AuthFirebase.xcdatamodel */,
+			);
+			currentVersion = 798CDF16241A67D7005DE888 /* AuthFirebase.xcdatamodel */;
+			path = AuthFirebase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 798CDEC6241A67D7005DE888 /* Project object */;
+}
