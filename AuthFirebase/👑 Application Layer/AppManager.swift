@@ -32,7 +32,7 @@ enum AppManager {
             return "v.\(versionNumber).\(buildNumber)\(target)"
         }
         
-        return ""        
+        return ""
     }
     
 }

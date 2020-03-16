@@ -7,6 +7,7 @@
 //
 
 import GKViper
+import FirebaseAuth
 
 protocol InitialPresenterInput: ViperPresenterInput { }
 
@@ -46,15 +47,20 @@ class InitialPresenter: ViperPresenter, InitialPresenterInput, InitialViewOutput
     // MARK: - InitialViewOutput
     override func viewIsReady(_ controller: UIViewController) {
         self.view?.setupInitialState(with: self.viewModel)
-        
-        _ = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false, block: { [weak self] _ in
-            guard let strongSelf = self else { return }
-            
-            strongSelf.router?.presentMainViewController()
-        })
+    }
+    
+    func prepareApp() {
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            if user == nil {
+                self.router?.presentHello()
+            } else {
+                self.router?.presentAccount()
+            }
+        }
     }
     
     // MARK: - InitialInteractorOutput
     
     // MARK: - Module functions
+    
 }

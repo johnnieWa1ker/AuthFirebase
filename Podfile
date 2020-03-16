@@ -7,12 +7,18 @@ target 'AuthFirebase' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for AuthFirebase
+  # Pods for FirebaseAuthTest
   
   # Custom libs
   pod 'GKViper', '~> 1.0.0'
   pod 'GKUseCase', '~> 1.0.1'
   pod 'GKRepresentable', '~> 1.0.1'
 
+  # Google
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  
 end
 

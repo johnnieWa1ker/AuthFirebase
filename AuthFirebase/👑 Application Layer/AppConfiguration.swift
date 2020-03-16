@@ -11,7 +11,7 @@ import Foundation
 enum AppConfiguration {
     
     static var databaseContainerName: String {
-        return "AuthFirebase"
+        return "FirebaseAuthTest"
     }
     
     static var serverUrl: String {

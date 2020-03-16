@@ -23,7 +23,7 @@ open class InitialInteractor: ViperInteractor, InitialInteractorInput {
     }
     
     // MARK: - Initialization
-    override init() {        
+    override init() {
         super.init()
     }
     

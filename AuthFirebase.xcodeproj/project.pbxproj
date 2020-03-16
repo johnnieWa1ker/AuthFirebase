@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,7 +29,7 @@
 		798CDF05241A67D7005DE888 /* AppThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF04241A67D7005DE888 /* AppThemeManager.swift */; };
 		798CDF08241A67D7005DE888 /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF07241A67D7005DE888 /* Stylable.swift */; };
 		798CDF0A241A67D7005DE888 /* StyleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF09241A67D7005DE888 /* StyleWrapper.swift */; };
-		798CDF0D241A67D7005DE888 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF0B241A67D7005DE888 /* LaunchScreen.strings */; };
+		798CDF0D241A67D7005DE888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF0B241A67D7005DE888 /* LaunchScreen.storyboard */; };
 		798CDF17241A67D7005DE888 /* AuthFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF15241A67D7005DE888 /* AuthFirebase.xcdatamodeld */; };
 		798CDF19241A67D7005DE888 /* AuthFirebaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF18241A67D7005DE888 /* AuthFirebaseRepository.swift */; };
 		798CDF1B241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF1A241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift */; };
@@ -42,11 +42,44 @@
 		798CDF35241A67D7005DE888 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF34241A67D7005DE888 /* InitialViewController.xib */; };
 		798CDF37241A67D7005DE888 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF36241A67D7005DE888 /* InitialViewModel.swift */; };
 		798CDF3A241A67D7005DE888 /* StylyWrapper+Initial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF39241A67D7005DE888 /* StylyWrapper+Initial.swift */; };
+		798CDF43241A682A005DE888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF0B241A67D7005DE888 /* LaunchScreen.storyboard */; };
+		798CDF45241A687A005DE888 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF44241A687A005DE888 /* User.swift */; };
+		798CDF4D241A68DE005DE888 /* HelloViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF46241A68DE005DE888 /* HelloViewModel.swift */; };
+		798CDF4E241A68DE005DE888 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF47241A68DE005DE888 /* HelloViewController.swift */; };
+		798CDF4F241A68DE005DE888 /* HelloAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF48241A68DE005DE888 /* HelloAssembly.swift */; };
+		798CDF50241A68DE005DE888 /* HelloInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF49241A68DE005DE888 /* HelloInteractor.swift */; };
+		798CDF51241A68DE005DE888 /* HelloRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF4A241A68DE005DE888 /* HelloRouter.swift */; };
+		798CDF52241A68DE005DE888 /* HelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF4B241A68DE005DE888 /* HelloViewController.xib */; };
+		798CDF53241A68DE005DE888 /* HelloPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF4C241A68DE005DE888 /* HelloPresenter.swift */; };
+		798CDF5C241A6987005DE888 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF55241A6987005DE888 /* SignUpViewModel.swift */; };
+		798CDF5D241A6987005DE888 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF56241A6987005DE888 /* SignUpViewController.swift */; };
+		798CDF5E241A6987005DE888 /* SignUpAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF57241A6987005DE888 /* SignUpAssembly.swift */; };
+		798CDF5F241A6987005DE888 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF58241A6987005DE888 /* SignUpInteractor.swift */; };
+		798CDF60241A6987005DE888 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF59241A6987005DE888 /* SignUpRouter.swift */; };
+		798CDF61241A6987005DE888 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF5A241A6987005DE888 /* SignUpViewController.xib */; };
+		798CDF62241A6987005DE888 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF5B241A6987005DE888 /* SignUpPresenter.swift */; };
+		798CDF6B241A6A20005DE888 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF64241A6A20005DE888 /* SignInViewModel.swift */; };
+		798CDF6C241A6A20005DE888 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF65241A6A20005DE888 /* SignInViewController.swift */; };
+		798CDF6D241A6A20005DE888 /* SignInAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF66241A6A20005DE888 /* SignInAssembly.swift */; };
+		798CDF6E241A6A20005DE888 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF67241A6A20005DE888 /* SignInInteractor.swift */; };
+		798CDF6F241A6A20005DE888 /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF68241A6A20005DE888 /* SignInRouter.swift */; };
+		798CDF70241A6A20005DE888 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF69241A6A20005DE888 /* SignInViewController.xib */; };
+		798CDF71241A6A20005DE888 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF6A241A6A20005DE888 /* SignInPresenter.swift */; };
+		798CDF7A241A6AB0005DE888 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF73241A6AB0005DE888 /* AccountViewModel.swift */; };
+		798CDF7B241A6AB0005DE888 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF74241A6AB0005DE888 /* AccountViewController.swift */; };
+		798CDF7C241A6AB0005DE888 /* AccountAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF75241A6AB0005DE888 /* AccountAssembly.swift */; };
+		798CDF7D241A6AB0005DE888 /* AccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF76241A6AB0005DE888 /* AccountInteractor.swift */; };
+		798CDF7E241A6AB0005DE888 /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF77241A6AB0005DE888 /* AccountRouter.swift */; };
+		798CDF7F241A6AB0005DE888 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF78241A6AB0005DE888 /* AccountViewController.xib */; };
+		798CDF80241A6AB0005DE888 /* AccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF79241A6AB0005DE888 /* AccountPresenter.swift */; };
+		798CDF83241A6C94005DE888 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 798CDF82241A6C93005DE888 /* GoogleService-Info.plist */; };
+		798CDF85241B8A3A005DE888 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CDF84241B8A3A005DE888 /* AuthService.swift */; };
+		D113C11389AD838816D1AC00 /* Pods_AuthFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB371CE6BA031D23DA1D4A17 /* Pods_AuthFirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		798CDECF241A67D7005DE888 /* AuthFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		798CDED2241A67D7005DE888 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		798CDED2241A67D7005DE888 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		798CDED4241A67D7005DE888 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../.swiftlint.yml; sourceTree = "<group>"; };
 		798CDED6241A67D7005DE888 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		798CDED9241A67D7005DE888 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
@@ -54,7 +87,6 @@
 		798CDEDD241A67D7005DE888 /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
 		798CDEDF241A67D7005DE888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		798CDEE2241A67D7005DE888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		798CDEE5241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitkeep; path = "AuthFirebase/👑 Application Layer/Extensions/.gitkeep"; sourceTree = SOURCE_ROOT; };
 		798CDEE8241A67D7005DE888 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		798CDEEA241A67D7005DE888 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		798CDEEB241A67D7005DE888 /* AppLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalization.swift; sourceTree = "<group>"; };
@@ -73,7 +105,6 @@
 		798CDF0C241A67D7005DE888 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		798CDF10241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		798CDF12241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		798CDF14241A67D7005DE888 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		798CDF16241A67D7005DE888 /* AuthFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AuthFirebase.xcdatamodel; sourceTree = "<group>"; };
 		798CDF18241A67D7005DE888 /* AuthFirebaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFirebaseRepository.swift; sourceTree = "<group>"; };
 		798CDF1A241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFirebaseRemoteWorker.swift; sourceTree = "<group>"; };
@@ -91,6 +122,40 @@
 		798CDF39241A67D7005DE888 /* StylyWrapper+Initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StylyWrapper+Initial.swift"; sourceTree = "<group>"; };
 		798CDF3C241A67D7005DE888 /* GlobalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
 		798CDF3D241A67D7005DE888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798CDF44241A687A005DE888 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		798CDF46241A68DE005DE888 /* HelloViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewModel.swift; sourceTree = "<group>"; };
+		798CDF47241A68DE005DE888 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		798CDF48241A68DE005DE888 /* HelloAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAssembly.swift; sourceTree = "<group>"; };
+		798CDF49241A68DE005DE888 /* HelloInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloInteractor.swift; sourceTree = "<group>"; };
+		798CDF4A241A68DE005DE888 /* HelloRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRouter.swift; sourceTree = "<group>"; };
+		798CDF4B241A68DE005DE888 /* HelloViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
+		798CDF4C241A68DE005DE888 /* HelloPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPresenter.swift; sourceTree = "<group>"; };
+		798CDF55241A6987005DE888 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		798CDF56241A6987005DE888 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		798CDF57241A6987005DE888 /* SignUpAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAssembly.swift; sourceTree = "<group>"; };
+		798CDF58241A6987005DE888 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		798CDF59241A6987005DE888 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		798CDF5A241A6987005DE888 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		798CDF5B241A6987005DE888 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		798CDF64241A6A20005DE888 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		798CDF65241A6A20005DE888 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		798CDF66241A6A20005DE888 /* SignInAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAssembly.swift; sourceTree = "<group>"; };
+		798CDF67241A6A20005DE888 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		798CDF68241A6A20005DE888 /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		798CDF69241A6A20005DE888 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		798CDF6A241A6A20005DE888 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		798CDF73241A6AB0005DE888 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		798CDF74241A6AB0005DE888 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		798CDF75241A6AB0005DE888 /* AccountAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAssembly.swift; sourceTree = "<group>"; };
+		798CDF76241A6AB0005DE888 /* AccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInteractor.swift; sourceTree = "<group>"; };
+		798CDF77241A6AB0005DE888 /* AccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRouter.swift; sourceTree = "<group>"; };
+		798CDF78241A6AB0005DE888 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		798CDF79241A6AB0005DE888 /* AccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPresenter.swift; sourceTree = "<group>"; };
+		798CDF82241A6C93005DE888 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		798CDF84241B8A3A005DE888 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D9FCC2970BF308812DD9D90C /* Pods-AuthFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthFirebase.release.xcconfig"; path = "Target Support Files/Pods-AuthFirebase/Pods-AuthFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		DD5C26991E836A6686DECDFB /* Pods-AuthFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthFirebase.debug.xcconfig"; path = "Target Support Files/Pods-AuthFirebase/Pods-AuthFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		EB371CE6BA031D23DA1D4A17 /* Pods_AuthFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +163,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D113C11389AD838816D1AC00 /* Pods_AuthFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013AD98B5B07FB12EF42C0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB371CE6BA031D23DA1D4A17 /* Pods_AuthFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		798CDEC5241A67D7005DE888 = {
 			isa = PBXGroup;
 			children = (
 				798CDED1241A67D7005DE888 /* AuthFirebase */,
 				798CDED0241A67D7005DE888 /* Products */,
+				FD065C3BE11154930783AC82 /* Pods */,
+				013AD98B5B07FB12EF42C0FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +199,7 @@
 		798CDED1241A67D7005DE888 /* AuthFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				798CDF82241A6C93005DE888 /* GoogleService-Info.plist */,
 				798CDED2241A67D7005DE888 /* Podfile */,
 				798CDED4241A67D7005DE888 /* .swiftlint.yml */,
 				798CDED6241A67D7005DE888 /* .gitignore */,
@@ -143,6 +220,7 @@
 				798CDEDB241A67D7005DE888 /* AppManager.swift */,
 				798CDEDD241A67D7005DE888 /* AppDefaults.swift */,
 				798CDEDF241A67D7005DE888 /* AppDelegate.swift */,
+				798CDF0B241A67D7005DE888 /* LaunchScreen.storyboard */,
 				798CDEE1241A67D7005DE888 /* LaunchScreen.storyboard */,
 				798CDEE4241A67D7005DE888 /* Extension */,
 				798CDEE6241A67D7005DE888 /* Localization */,
@@ -154,7 +232,6 @@
 		798CDEE4241A67D7005DE888 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				798CDEE5241A67D7005DE888 /* .gitkeep */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -259,7 +336,7 @@
 		798CDF13241A67D7005DE888 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				798CDF14241A67D7005DE888 /* .gitkeep */,
+				798CDF44241A687A005DE888 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -327,6 +404,10 @@
 			isa = PBXGroup;
 			children = (
 				798CDF29241A67D7005DE888 /* Initial */,
+				798CDF54241A68E2005DE888 /* Hello */,
+				798CDF63241A698B005DE888 /* SignUp */,
+				798CDF72241A6A25005DE888 /* SignIn */,
+				798CDF81241A6AB4005DE888 /* Account */,
 			);
 			path = "User Stories";
 			sourceTree = "<group>";
@@ -358,8 +439,74 @@
 			isa = PBXGroup;
 			children = (
 				798CDF3C241A67D7005DE888 /* GlobalHelper.swift */,
+				798CDF84241B8A3A005DE888 /* AuthService.swift */,
 			);
 			path = "🤖 Service Layer";
+			sourceTree = "<group>";
+		};
+		798CDF54241A68E2005DE888 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF46241A68DE005DE888 /* HelloViewModel.swift */,
+				798CDF47241A68DE005DE888 /* HelloViewController.swift */,
+				798CDF48241A68DE005DE888 /* HelloAssembly.swift */,
+				798CDF49241A68DE005DE888 /* HelloInteractor.swift */,
+				798CDF4A241A68DE005DE888 /* HelloRouter.swift */,
+				798CDF4B241A68DE005DE888 /* HelloViewController.xib */,
+				798CDF4C241A68DE005DE888 /* HelloPresenter.swift */,
+			);
+			path = Hello;
+			sourceTree = "<group>";
+		};
+		798CDF63241A698B005DE888 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF55241A6987005DE888 /* SignUpViewModel.swift */,
+				798CDF56241A6987005DE888 /* SignUpViewController.swift */,
+				798CDF57241A6987005DE888 /* SignUpAssembly.swift */,
+				798CDF58241A6987005DE888 /* SignUpInteractor.swift */,
+				798CDF59241A6987005DE888 /* SignUpRouter.swift */,
+				798CDF5A241A6987005DE888 /* SignUpViewController.xib */,
+				798CDF5B241A6987005DE888 /* SignUpPresenter.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		798CDF72241A6A25005DE888 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF64241A6A20005DE888 /* SignInViewModel.swift */,
+				798CDF65241A6A20005DE888 /* SignInViewController.swift */,
+				798CDF66241A6A20005DE888 /* SignInAssembly.swift */,
+				798CDF67241A6A20005DE888 /* SignInInteractor.swift */,
+				798CDF68241A6A20005DE888 /* SignInRouter.swift */,
+				798CDF69241A6A20005DE888 /* SignInViewController.xib */,
+				798CDF6A241A6A20005DE888 /* SignInPresenter.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		798CDF81241A6AB4005DE888 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				798CDF73241A6AB0005DE888 /* AccountViewModel.swift */,
+				798CDF74241A6AB0005DE888 /* AccountViewController.swift */,
+				798CDF75241A6AB0005DE888 /* AccountAssembly.swift */,
+				798CDF76241A6AB0005DE888 /* AccountInteractor.swift */,
+				798CDF77241A6AB0005DE888 /* AccountRouter.swift */,
+				798CDF78241A6AB0005DE888 /* AccountViewController.xib */,
+				798CDF79241A6AB0005DE888 /* AccountPresenter.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		FD065C3BE11154930783AC82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD5C26991E836A6686DECDFB /* Pods-AuthFirebase.debug.xcconfig */,
+				D9FCC2970BF308812DD9D90C /* Pods-AuthFirebase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,10 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 798CDF40241A67D7005DE888 /* Build configuration list for PBXNativeTarget "AuthFirebase" */;
 			buildPhases = (
+				8855C162274FE8AD1646FE8E /* [CP] Check Pods Manifest.lock */,
 				798CDECA241A67D7005DE888 /* Sources */,
 				798CDECB241A67D7005DE888 /* Frameworks */,
 				798CDECC241A67D7005DE888 /* Resources */,
 				798CDECD241A67D7005DE888 /* Swift Lint */,
+				0545819E5E0CEE91F36FEB4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -424,21 +573,44 @@
 			files = (
 				798CDEE9241A67D7005DE888 /* Localizable.strings in Resources */,
 				798CDF35241A67D7005DE888 /* InitialViewController.xib in Resources */,
+				798CDF61241A6987005DE888 /* SignUpViewController.xib in Resources */,
 				798CDED5241A67D7005DE888 /* .swiftlint.yml in Resources */,
 				798CDEFE241A67D7005DE888 /* FiraSans-SemiBold.ttf in Resources */,
-				798CDF0D241A67D7005DE888 /* LaunchScreen.strings in Resources */,
+				798CDF0D241A67D7005DE888 /* LaunchScreen.storyboard in Resources */,
+				798CDF7F241A6AB0005DE888 /* AccountViewController.xib in Resources */,
+				798CDF43241A682A005DE888 /* LaunchScreen.storyboard in Resources */,
 				798CDEE3241A67D7005DE888 /* LaunchScreen.storyboard in Resources */,
 				798CDEFA241A67D7005DE888 /* FiraSans-ExtraBold.ttf in Resources */,
 				798CDED7241A67D7005DE888 /* .gitignore in Resources */,
+				798CDF70241A6A20005DE888 /* SignInViewController.xib in Resources */,
+				798CDF83241A6C94005DE888 /* GoogleService-Info.plist in Resources */,
 				798CDEF6241A67D7005DE888 /* Assets.xcassets in Resources */,
 				798CDEFC241A67D7005DE888 /* FiraSans-Regular.ttf in Resources */,
 				798CDED3241A67D7005DE888 /* Podfile in Resources */,
+				798CDF52241A68DE005DE888 /* HelloViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0545819E5E0CEE91F36FEB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthFirebase/Pods-AuthFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthFirebase/Pods-AuthFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthFirebase/Pods-AuthFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		798CDECD241A67D7005DE888 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,6 +629,28 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
+		8855C162274FE8AD1646FE8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -464,29 +658,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798CDF60241A6987005DE888 /* SignUpRouter.swift in Sources */,
+				798CDF5D241A6987005DE888 /* SignUpViewController.swift in Sources */,
 				798CDEEC241A67D7005DE888 /* AppLocalization.swift in Sources */,
 				798CDF2D241A67D7005DE888 /* InitialInteractor.swift in Sources */,
 				798CDF00241A67D7005DE888 /* FiraSans.swift in Sources */,
+				798CDF7C241A6AB0005DE888 /* AccountAssembly.swift in Sources */,
+				798CDF6C241A6A20005DE888 /* SignInViewController.swift in Sources */,
+				798CDF85241B8A3A005DE888 /* AuthService.swift in Sources */,
+				798CDF7D241A6AB0005DE888 /* AccountInteractor.swift in Sources */,
 				798CDF1B241A67D7005DE888 /* AuthFirebaseRemoteWorker.swift in Sources */,
+				798CDF5E241A6987005DE888 /* SignUpAssembly.swift in Sources */,
 				798CDF37241A67D7005DE888 /* InitialViewModel.swift in Sources */,
 				798CDF17241A67D7005DE888 /* AuthFirebase.xcdatamodeld in Sources */,
+				798CDF7E241A6AB0005DE888 /* AccountRouter.swift in Sources */,
 				798CDEE0241A67D7005DE888 /* AppDelegate.swift in Sources */,
 				798CDEDA241A67D7005DE888 /* AppConfiguration.swift in Sources */,
 				798CDEDC241A67D7005DE888 /* AppManager.swift in Sources */,
+				798CDF4E241A68DE005DE888 /* HelloViewController.swift in Sources */,
+				798CDF6E241A6A20005DE888 /* SignInInteractor.swift in Sources */,
 				798CDEF0241A67D7005DE888 /* AppLocalizationManager.swift in Sources */,
+				798CDF45241A687A005DE888 /* User.swift in Sources */,
 				798CDEEE241A67D7005DE888 /* Localizable.swift in Sources */,
+				798CDF80241A6AB0005DE888 /* AccountPresenter.swift in Sources */,
 				798CDF19241A67D7005DE888 /* AuthFirebaseRepository.swift in Sources */,
 				798CDF2F241A67D7005DE888 /* InitialPresenter.swift in Sources */,
 				798CDF31241A67D7005DE888 /* InitialRouter.swift in Sources */,
 				798CDF33241A67D7005DE888 /* InitialViewController.swift in Sources */,
 				798CDF05241A67D7005DE888 /* AppThemeManager.swift in Sources */,
+				798CDF5C241A6987005DE888 /* SignUpViewModel.swift in Sources */,
+				798CDF6F241A6A20005DE888 /* SignInRouter.swift in Sources */,
+				798CDF6D241A6A20005DE888 /* SignInAssembly.swift in Sources */,
+				798CDF7B241A6AB0005DE888 /* AccountViewController.swift in Sources */,
+				798CDF6B241A6A20005DE888 /* SignInViewModel.swift in Sources */,
+				798CDF4F241A68DE005DE888 /* HelloAssembly.swift in Sources */,
+				798CDF50241A68DE005DE888 /* HelloInteractor.swift in Sources */,
 				798CDF3A241A67D7005DE888 /* StylyWrapper+Initial.swift in Sources */,
+				798CDF51241A68DE005DE888 /* HelloRouter.swift in Sources */,
 				798CDEF4241A67D7005DE888 /* AppAssets.swift in Sources */,
+				798CDF4D241A68DE005DE888 /* HelloViewModel.swift in Sources */,
 				798CDF27241A67D7005DE888 /* BasicNavigationController.swift in Sources */,
+				798CDF71241A6A20005DE888 /* SignInPresenter.swift in Sources */,
 				798CDF08241A67D7005DE888 /* Stylable.swift in Sources */,
 				798CDF0A241A67D7005DE888 /* StyleWrapper.swift in Sources */,
 				798CDEDE241A67D7005DE888 /* AppDefaults.swift in Sources */,
+				798CDF7A241A6AB0005DE888 /* AccountViewModel.swift in Sources */,
+				798CDF53241A68DE005DE888 /* HelloPresenter.swift in Sources */,
 				798CDF2B241A67D7005DE888 /* InitialAssembly.swift in Sources */,
+				798CDF62241A6987005DE888 /* SignUpPresenter.swift in Sources */,
+				798CDF5F241A6987005DE888 /* SignUpInteractor.swift in Sources */,
 				798CDF03241A67D7005DE888 /* AppTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +718,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				798CDEE2241A67D7005DE888 /* Base */,
-				798CDF0B241A67D7005DE888 /* LaunchScreen.strings */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -512,12 +731,12 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		798CDF0B241A67D7005DE888 /* LaunchScreen.strings */ = {
+		798CDF0B241A67D7005DE888 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				798CDF0C241A67D7005DE888 /* ru */,
 			);
-			name = LaunchScreen.strings;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -639,6 +858,7 @@
 		};
 		798CDF41241A67D7005DE888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5C26991E836A6686DECDFB /* Pods-AuthFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -656,6 +876,7 @@
 		};
 		798CDF42241A67D7005DE888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FCC2970BF308812DD9D90C /* Pods-AuthFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
